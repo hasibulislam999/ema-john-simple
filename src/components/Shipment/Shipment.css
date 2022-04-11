@@ -1,5 +1,5 @@
 .login-form {
-    height: 600px;
+    height: fit-content !important;
     width: 500px;
     margin: 0rem auto;
     padding: 1rem;
@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 
-fieldset{
+fieldset {
     padding: 0;
     border-left: 0;
     border-right: 0;
@@ -39,7 +39,7 @@ fieldset{
     font-size: 25px;
 }
 
-.login-btn{
+.register-btn {
     width: 415px;
     height: 55px;
     background: rgba(255, 153, 0, 0.3);
@@ -48,7 +48,7 @@ fieldset{
     font-size: 25px;
 }
 
-.create-account{
+.create-account {
     color: #FF9900;
     text-decoration: none;
 }

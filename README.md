@@ -9,6 +9,10 @@
 8. useCreateUserWithEmailAndPassword from react-firebase-hooks for sign up
 9. if user is created redirected to expected page
 10. useSignInWithEmailAndPassword from react-firebase-hooks for sign in
+11. create requireAuth component
+    - check user exist
+    - track user location means site menu or category
+12. in route wrap need require auth component
 
 ## firebase deploy hosting commands:
 ### install firebase cli
